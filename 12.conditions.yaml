@@ -1,0 +1,12 @@
+- name: conditions
+  host: web
+  become: yes
+  tasks:
+  - name: check user exists or not
+    ansible.builtin.debug:
+    ignore_errors: true
+
+  - name: say hello
+    ansible.builtin.debug:
+      msg: "hello"
+
