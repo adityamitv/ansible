@@ -1,7 +1,7 @@
 - name: variables from files
   hosts: localhost
   vars_prompt
-  - name: USENAME
+  - name: USERNAME
     prompt: please enter your username
     private: false
   - name: PASSWORD
