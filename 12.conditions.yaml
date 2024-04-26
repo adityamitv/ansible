@@ -8,5 +8,5 @@
 
   - name: say hello
     ansible.builtin.debug:
-      msg: "hello"
+      msg: "Hello"
 
