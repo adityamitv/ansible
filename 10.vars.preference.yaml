@@ -15,5 +15,3 @@
     ansible.builtin.debug:
       msg: "Hello, Good {{WISHES}}"  
 
-# 1. arguments
-# 2. Task level
