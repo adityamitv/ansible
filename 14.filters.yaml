@@ -42,7 +42,7 @@
       msg: "min age: {{ ages | min}}, max age: {{ ages | max}}"
 
 - name: convert dictionary into items/list
-  host: localhost
+  hosts: localhost
   vars:
     my_dict:  # this is called as dictionary or map or key/value pairs
       Course: Ansible
